@@ -1,5 +1,4 @@
 # EDGE-TO-CLOUD-HEAT-MONITORING-FOR-INDUSTRIAL-ENVIRONMENTS
-# 🏭 Edge-to-Cloud Heat Monitoring for Industrial Environments
 
 ## 🎯 Abstract
 
