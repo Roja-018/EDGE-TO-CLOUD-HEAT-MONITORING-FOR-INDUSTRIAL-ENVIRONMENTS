@@ -17,4 +17,5 @@ In modern industrial environments, maintaining precise temperature thresholds is
 
 ## Block diagram
 
-![image]("C:\Users\nages\OneDrive\Pictures\Roja\block diagram.png")
+![image](<img width="592" height="297" alt="block diagram" src="https://github.com/user-attachments/assets/8f6751a0-a13c-4dcc-9291-2be6c74796cd" />
+
