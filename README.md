@@ -14,3 +14,7 @@ In modern industrial environments, maintaining precise temperature thresholds is
 - **Automated Alerting:** Immediate local boundary triggers to prevent overheating and hardware damage.
 - **Scalable Cloud Analytics:** Secure transmission via MQTT/HTTP for centralized monitoring and historical data visualisations.
 - **Predictive Maintenance:** Data logging structured for trend analysis, assisting in failure prediction before breakdowns occur.
+
+## Block diagram
+
+![image]("C:\Users\nages\OneDrive\Pictures\Roja\block diagram.png")
