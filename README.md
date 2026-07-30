@@ -58,10 +58,10 @@ Before integrating the entire system, each peripheral module is individually val
 
 ---
 
-## Project images and videos
 
-[![Watch the Demo]("C:\Users\nages\OneDrive\Pictures\Roja\project output video.mp4")
+# Project images and videos
 
+https://github.com/user-attachments/assets/12345678-abcd-1234-abcd-123456789abc
 ## 🔄 Operational Logic
 
 ```mermaid
