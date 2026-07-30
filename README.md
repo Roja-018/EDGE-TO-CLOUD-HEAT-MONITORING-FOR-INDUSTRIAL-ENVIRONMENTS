@@ -60,8 +60,7 @@ Before integrating the entire system, each peripheral module is individually val
 
 ## Project images and videos
 
-https://drive.google.com/drive/folders/1FrvDEtKUNiUhKWz-O8FiWRs7fYGKJGnt?usp=sharing
-
+[![Watch the Demo]("C:\Users\nages\OneDrive\Pictures\Roja\project output video.mp4")
 
 ## 🔄 Operational Logic
 
