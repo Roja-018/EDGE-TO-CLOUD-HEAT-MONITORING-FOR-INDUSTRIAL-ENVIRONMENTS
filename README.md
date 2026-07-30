@@ -61,7 +61,9 @@ Before integrating the entire system, each peripheral module is individually val
 
 # Project images and videos
 
-https://github.com/user-attachments/assets/12345678-abcd-1234-abcd-123456789abc
+<video src="https://github.com/user-attachments/assets/12345678-abcd-1234-abcd-123456789abc" width="100%" controls>
+</video>
+
 ## 🔄 Operational Logic
 
 ```mermaid
