@@ -42,19 +42,42 @@ In modern industrial environments, maintaining precise temperature thresholds is
 
 ---
 
-## ⚙️ Project Implementation & Workflow
+## 🔄 Project Implementation & Workflow
 
-### 1. Modular Testing Phase
-Before integrating the entire system, each peripheral module is individually validated:
-* **Display System (`lcd.c` / `lcd.h`):** Verified display rendering for character constants, string constants, and integer values.
-* **Temperature Acquisition (`adc.c` / `adc.h`):** Tested the LM35 analog input reading via the LPC2148's inbuilt ADC pin.
-* **Gas/Smoke Detection:** Verified the MQ-2 sensor functionality using LED/GPIO indication based on smoke threshold presence.
-* **Serial Communications:** Verified UART interrupt execution and configured the ESP-01 module via AT commands using the Flash Magic terminal.
+### Step 1: Temperature Monitoring
+- LM35 continuously measures the ambient temperature.
+- LPC2148 reads the analog value using its ADC.
 
-### 2. System Integration & Driver Development
-* Connected ESP-01 hardware lines to LPC2148 UART pins.
-* Developed custom ESP-01 communication drivers for ARM7.
-* Tested static payload transmission to a target ThingSpeak IoT Channel.
+### Step 2: Smoke Detection
+- MQ-2 sensor detects smoke or combustible gases.
+- LPC2148 monitors the sensor output through GPIO.
+
+### Step 3: Data Processing
+- LPC2148 processes the temperature and smoke sensor values.
+- The measured values are compared with predefined threshold limits.
+- If abnormal conditions are detected, the system proceeds to generate an alert.
+
+### Step 4: Local Display
+- Current temperature is displayed on the 16×2 LCD.
+- Smoke detection status is also shown on the LCD.
+
+### Step 5: Alert Generation
+- If the temperature exceeds the threshold:
+  - Buzzer turns ON.
+  - Warning LED glows.
+- If smoke is detected:
+  - Buzzer turns ON.
+  - Warning LED glows.
+
+### Step 6: Cloud Communication
+- LPC2148 sends sensor readings to the ESP01 Wi-Fi module through UART.
+- ESP01 uploads the data to the ThingSpeak cloud platform using the HTTP protocol.
+
+### Step 7: Remote Monitoring
+Users can monitor the real-time sensor data using:
+- 💻 Laptop
+- 📱 Mobile Phone
+- 🌐 Web Browser
 
 ---
 
