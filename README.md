@@ -41,6 +41,31 @@ In modern industrial environments, maintaining precise temperature thresholds is
 * **Cloud Platform:** ThingSpeak IoT Platform
 
 ---
+## 📂 Repository Structure
+```
+EDGE-TO-CLOUD-HEAT-MONITORING-FOR-INDUSTRIAL-ENVIRONMENTS/
+│
+├── README.md
+│
+├── ADC.c
+├── adc_defines.h
+├── defines.h
+├── delay.c
+├── delay.h
+├── esp01.c
+├── esp01.h
+├── lcd.c
+├── lcd.h
+├── lpc214x.h
+├── lpc21xx.h
+├── projectmain.c
+├── rtc.c
+├── rtc.h
+├── rtc_defines.h
+├── types.h
+├── uart0.c
+└── uart0.h
+```
 
 ## 🔄 Project Implementation & Workflow
 
